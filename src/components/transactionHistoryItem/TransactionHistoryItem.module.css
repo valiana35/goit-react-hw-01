@@ -1,0 +1,13 @@
+.tr {
+    font-size: 20px;
+}
+.tr:nth-child(odd) {
+    background-color: white;
+}
+.tr:nth-child(even) {
+    background-color: rgb(206, 198, 198);
+}
+.td {
+    border: 2px solid black;
+    padding: 6px;
+}

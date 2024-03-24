@@ -1,0 +1,30 @@
+.imgCard {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    justify-content: center;
+}
+.imgAvatar  {
+    margin-top: 10px;
+    width: 100px;
+}
+.friendName  {
+    margin: 10px auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    justify-self: center;
+    padding-right: 100px;
+    color: black;
+}
+.online {
+    color: green;
+    font-size: 20px;
+}
+.offline {
+    color: red;
+    font-size: 20px;
+}
